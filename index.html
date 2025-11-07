@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIM list</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Bug Reports</h1>
+    <article id="tickets-list">
+        <template id="ticket-template">
+            <section class="ticket">
+                <section class="ticket-content-main">
+                    <h3 class="timestamp">
+                        Ingen registreringstid
+                    </h3>
+                    <h2 class="title">
+                        Ingen tittel
+                    </h2>
+                    <p class="description">
+                        Ingen beskrivelse
+                    </p>
+
+                    <section class="details-container">
+                        <section class="detail-block">
+                            <h4 class="detail-title">Systemmiljø</h4>
+                            <div class="detail-body">
+                                [Operativsystem og versjon]:<br>
+                                <span class="detail-environment-OS">Ukjent OS</span><br><br>
+                                [Nettleser og versjon]:<br>
+                                <span class="detail-environment-browser">Ukjent nettleser</span>
+                            </div>
+                        </section>
+                        
+                        <section class="detail-block">
+                            <h4 class="detail-title">Fremgangsmåte</h4>
+                            <div class="detail-body">
+                                <span class="steps">-</span>
+                            </div>
+                        </section>
+                        
+                        <section class="detail-block">
+                            <h4 class="detail-title">Forventet funksjon</h4>
+                            <div class="detail-body">
+                                <span class="expected-behavior">-</span>
+                            </div>
+                        </section>
+                    </section>
+                </section>
+                
+                <section class="ticket-divider"></section>
+                
+                <section class="ticket-meta">
+                    <section>
+                        <h4>Kritikalitet</h4>
+                        <p class="meta-criticality">-</p>
+                    </section>
+                    <section>
+                        <h4>Status</h4>
+                        <p class="meta-status">-</p>
+                    </section>
+                    <section>
+                        <h4>Frist</h4>
+                        <p class="meta-deadline">-</p>
+                    </section>
+                    <section class="meta-id">
+                        <h3>ID #<span class="id-number">-</span></h3>
+                    </section>
+                </section>
+            </section>
+        </template>
+    </article>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
