@@ -1,6 +1,6 @@
 # Webutvikling-F24-Utplassering
 ## Description
-This repository contains a web development exercise in using a Rest API, HTML, CSS and JS. <br>
+A web development exercise in using a Rest API, HTML, CSS and JS. <br>
 This repository contains a webpage built specifically to display data fetched from F24's instance API. I was tasked with:<br>
 
 <ol>
